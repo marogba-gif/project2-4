@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportsZone</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-4 mb-4">
+    <h1>Welcome to SportsZone</h1>
+    <p>Your hub for all things sports</p>
+  </header>
+
+  <!-- Accordion Section -->
+  <section class="container mb-5">
+    <h2 class="mb-3 text-center">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What sports activities do you offer?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show"
+             aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We offer soccer, basketball, tennis, and badminton training programs for all age groups.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Where are the training sessions held?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse"
+             aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Our main training facilities are located in Los Angeles and San Diego. We also partner with local gyms and fields.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            How can I join a program?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse"
+             aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            You can register online through our website or visit one of our locations to sign up in person.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Card Group Section -->
+  <section class="container mb-5">
+    <h2 class="mb-4 text-center">Our Sports Programs</h2>
+    <div class="card-group">
+
+      <div class="card mx-2">
+        <img src="images/soccer.jpg" class="card-img-top" alt="Soccer Training">
+        <div class="card-body">
+          <h5 class="card-title">Soccer Training</h5>
+          <p class="card-text">Develop your skills with professional coaches and join our competitive local leagues.</p>
+        </div>
+      </div>
+
+      <div class="card mx-2">
+        <img src="images/basketball.jpg" class="card-img-top" alt="Basketball Camp">
+        <div class="card-body">
+          <h5 class="card-title">Basketball Camp</h5>
+          <p class="card-text">Learn shooting, passing, and teamwork through our intensive basketball sessions.</p>
+        </div>
+      </div>
+
+      <div class="card mx-2">
+        <img src="images/tennis.jpg" class="card-img-top" alt="Tennis Lessons">
+        <div class="card-body">
+          <h5 class="card-title">Tennis Lessons</h5>
+          <p class="card-text">Improve your serve and footwork with one-on-one training from certified instructors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 SportsZone. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
